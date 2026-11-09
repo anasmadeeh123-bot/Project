@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     margin: 0;
+    color: white;
 
 }
 
@@ -9,16 +10,99 @@
 
 nav {
     background-color: #2854fd;
-    padding: 0px;
-    font-size: 17px;
-    color: white;
-    padding: 20px;
+    width: 100%;
+    padding: 20px 40px;
+    border-bottom: 1px solid #3967FF;
 }
 
-p::before {
+nav p {
+    font-size: 13px;
+    color: inherit;
+}
+
+nav p::before {
     content: "";
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+    width: 10px;
+    height: 10px;
+    background-color: inherit;
+    order-radius: 50%;
+}
+
+/* Hero style */
+
+.main-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 43vw 1fr;
+}
+
+/* main style */
+
+main {  
+    height: 90.3vh;
+    background-color: #2854fd;
+    padding: 25vh 10vw 30vh 3vw;
+    font-size: 25px;
+    color: inherit;
+    font-weight: 200;
+    border: 1px solid #3967FF
+;
+}
+
+main h1 {
+    line-height: 55px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+main p {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+/* Grid style */
+
+.grid {
+    background-color: #2854fd;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+section {
+    border: 1px solid #3967FF;
+    padding: 20px;
+    position: relative;
+}
+
+section:hover {
+    background-color: #335cff;
+}
+
+section p,h4 {
+    display: block;
+    position: absolute;
+}
+
+section img,h3 {
+    display: inline-block;
+}
+
+section h3 {
+    position: absolute;
+    right: 20px;
+}
+
+section p {
+    bottom: 20px;
+    font-size: 15px;
+    color: inherit;
+    font-weight: 200;
+}
+
+section h4 {
+    bottom: 40px;
 }

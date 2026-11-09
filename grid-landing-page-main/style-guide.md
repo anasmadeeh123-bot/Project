@@ -14,9 +14,9 @@ The designs were created to the following widths:
 - White: hsl(0, 0%, 100%)
 
 - Blue 200: hsl(224, 100%, 95%)
-- Blue 400: hsl(220, 100%, 64%)
-- Blue 600: hsl(228, 100%, 60%)
-- Blue 700: hsl(228, 99%, 58%)
+- Blue 400: #4785ff
+- Blue 600: #335cff
+- Blue 700: #2a54fe
 
 - Black: hsl(0, 0%, 0%) — used at 25% opacity for the menu overlay
 
